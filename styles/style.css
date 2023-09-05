@@ -25,8 +25,8 @@ article {
   max-width: 25em;
   min-width: 20em;
   border-radius: 1rem;
-  background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
+  background: rgb(228, 201, 128);
+  background: linear-gradient(0deg, rgb(219, 204, 136) 40%, #aee99f 100%);
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
 }
@@ -53,23 +53,23 @@ button {
   padding: .25rem;
   border: none;
   border-radius: 50%;
-  background: rgb(175, 233, 160);
+  background: rgb(255, 255, 255);
   transform: scale(.8);
   transition: .25s;
 }
 button:focus {
   outline: none;
-  background: rgb(175, 233, 160);
+  background: rgb(0, 0, 0);
 }
 button:focus svg {
-  stroke: rgba(0,239,255,1);
+  stroke: rgb(104, 185, 190);
 }
 
 svg {
   position: absolute;
   top: calc(1.25rem - 12px);
   left: calc(1.25rem - 12px);
-  stroke: #4e54c8;
+  stroke: #e6e096;
   transition-delay: .25s;
 }
 button svg:nth-of-type(2) {
@@ -82,7 +82,7 @@ img {
   top: 2rem;
   width: 10em;
   height: auto;
-  border: 5px solid #fff;
+  border: 5px solid #000000;
   border-radius: 10em;
   box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
   transition: .25s .15s;
@@ -102,7 +102,7 @@ dl {
   margin-bottom: 0;
   padding: 5rem 0 3rem;
   text-align: center;
-  background: rgb(183, 184, 181);
+  background: rgb(241, 242, 245);
 }
 
 dt {
@@ -141,7 +141,7 @@ article > p {
   padding: 3rem 2rem;
   border-radius: 0 0 1rem 1rem;
   text-align: center;
-  background: rgba(255,255,255, 0.5);
+  background: rgba(163, 245, 207, 0.568);
 }
 
 /* expand content */
