@@ -1,8 +1,43 @@
-body {
-  font-family: Arial, Helvetica, serif;
+/* mijn naam in H1 en een groter lettertype, om te laten zien over wie dit visite kaartje overgaat.*/
+h1 {
+  font-size: 25px;
+  font-weight: 500 bold;
+  color: rgb(0, 0, 0);
+}
+
+/* ik wil de user aantrekken door roze te gebruiken, dit valt namelijk op. Je leest dus eerst de roze tekst en vervolgens het zwarte, bijv. eerst Naam en dan vervolgens Wing-San Lee*/
+p {
   font-size: 15px;
   font-weight: 500 bold;
-  color: rgb(243, 88, 197)
+  color: rgb(255, 79, 226);
+}
+
+/* kleur zwart: beter contrast aangezien mijn  achtergrond wit is.*/
+h2 {
+  font-size: 20px;
+  font-weight: 500 bold;
+  color: rgb(0, 0, 0);
+}
+
+.outro {
+  font-size: 15px;
+  font-weight: 500 bold;
+  color: rgb(0, 0, 0);
+}
+
+article {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 8px;
+  border-radius: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  gap: 2em;
 }
 
 img {
@@ -14,83 +49,11 @@ img {
   margin-left: 50px;
 }
 
-.container {
-  max-width: 800px;
-  margin: 8 auto;
-  margin-top: 10vh;
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
 }
-
-.article {
-  background-color: rgb(255, 255, 255);
-  height: 600px;
-  width: 1000px;
-  border: 1px solid rgb(0, 0, 0);
-  padding: 8px;
-  border-radius: 20px;
-}
-
-.name {
-  font-family: Arial, Helvetica, serif;
-  font-size: 20px;
-  font-weight: 500 bold;
-  color: rgb(0, 0, 0);
-  text-align: right;
-  margin-top: -400px;
-  margin-right: 300px;
-
-  
-}
-
-.naam {
-  font-family: Arial, Helvetica, serif;
-  font-size: 15px;
-  font-weight: 500 bold;
-  color: rgb(243, 88, 197);
-  text-align: right;
-  margin-right: -400px;
-  margin-top: 300px;
-}
-
-.value {
-  font-size: 20px;
-  font-weight: 500 bold;
-  color: rgb(0, 0, 0);
-}
-
-.label {
-  font-size: 15px;
-  font-weight: 500 bold;
-  color: rgb(243, 88, 197)
-}
-
-
-p {
-  font-family: Arial, Helvetica, serif;
-  font-size: 15px;
-  font-weight: 500;
-  color: rgb(255, 79, 226);
-}
-
-h1 {
-  font-family: Arial, Helvetica, serif;
-  font-size: 25px;
-  font-weight: 500 bold;
-  color: rgb(0, 0, 0);
-}
-
-h2 {
-  font-family: Arial, Helvetica, serif;
-  font-size: 20px;
-  font-weight: 500 bold;
-  color: rgb(0, 0, 0);
-}
-
-p1 {
-  font-size: 15px;
-  font-weight: 500 bold;
-  color: rgb(0, 0, 0);
-}
-
 
 
 
